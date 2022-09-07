@@ -1,0 +1,263 @@
+{
+  "setting": {
+    "audio": [
+      { "name": "123123dasdadsafafas13", "file": "/audio/1.mp3" },
+      { "name": "34634141", "file": "/audio/2.mp3" },
+      { "name": "41167112", "file": "/audio/3.mp3" }
+    ],
+    "countdown": {
+      "datetime": "2022/4/5 0:00",
+      "duration": {
+        "start": "2022/4/3 13:00",
+        "end": "2022/4/5 0:00"
+      }
+    },
+    "public_mint": {
+      "duration": {
+        "start": "2022/4/5 0:00",
+        "end": "2022/4/6 23:59:59"
+      },
+      "price": 0.2
+    },
+    "dutch_auction": {
+      "duration": {
+        "start": "2022/4/7 16:00",
+        "end": "2022/4/8 18:31"
+      },
+      "time_step": 30,
+      "price_step": 0.0012,
+      "start_price": 0.2,
+      "end_price": 0.1
+    }
+  },
+  "header": {
+    "links": [
+      { "to": "/station", "title": "STATION" },
+      { "to": "/train", "title": "TRAIN" },
+      { "to": "/the-journey", "title": "THE JOURNEY" },
+      { "to": "/manifesto", "title": "MANIFESTO" }
+    ],
+    "socials": [
+      { "icon": "Twitter", "link": "" },
+      { "icon": "Instagram", "link": "" },
+      { "icon": "Discord", "link": "" },
+      { "icon": "Opensea", "link": "" }
+    ],
+    "copyright": "Copyright © 2020 Cozies Inc."
+  },
+  "bottom": {
+    "white_paper": {
+      "link": "https://plateform-by-unname-token.gitbook.io/plateform/unname-token/guan-wu-she-ou",
+      "title": "White Paper"
+    },
+    "connect_wallet": "Connect Wallet",
+    "links": [
+      { "to": "/about", "title": "About" },
+      { "to": "/ingredients-and-cuisine", "title": "Ingredients and Cuisine" },
+      { "to": "/pass-and-feast", "title": "Pass and Feast" },
+      { "to": "/reality-and-virtual", "title": "Reality to Virtual" }
+    ],
+    "socials": [
+      { "icon": "Discord", "link": "https://discord.com/invite/unname-token" },
+      { "icon": "Instagram", "link": "https://www.instagram.com/" }
+    ]
+  },
+  "homepage": {
+    "heading": {
+      "banner": "/images/homepage-heading.png"
+    },
+    "intro": {
+      "list": [
+        "How long have you been stay Cozy?1",
+        "How long have you been stay Cozy?2",
+        "How long have you been stay Cozy?3"
+      ]
+    },
+    "about": {
+      "title": "ABOUT",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros."
+    },
+    "gallery": {
+      "title": "GALLERY",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.",
+      "photos": [
+        "/images/homepage-gallery-1.png",
+        "/images/homepage-gallery-2.png",
+        "/images/homepage-gallery-3.png",
+        "/images/homepage-gallery-4.png",
+        "/images/homepage-gallery-5.png",
+        "/images/homepage-gallery-6.png"
+      ]
+    },
+    "social": {
+      "title": "FOLLOW US",
+      "twitter": {
+        "icon": "/images/homepage-social-twitter.svg",
+        "link": ""
+      },
+      "instagram": {
+        "icon": "/images/homepage-social-instagram.svg",
+        "link": ""
+      },
+      "discord": {
+        "icon": "/images/homepage-social-discord.svg",
+        "link": ""
+      },
+      "back_to_top": "BACK TO TOP",
+      "view_the_train": "VIEW THE TRAIN"
+    },
+    "datetime_title": "COMING SOON",
+    "datetime": "2022/3/30 11:59",
+    "countdown_duration": {"start": "2022/3/28 13:00", "end": "2022/3/30 12:00"},
+    "mint_duration": {"start": "2022/3/30 13:00", "end": "2022/4/12 13:00"},
+    "marquee": "Dining experience among reality and virtual.",
+    "illustration": [
+      { 
+        "title": "BLACK GARLIC",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/BLACK_GARLIC.svg",
+        "path": "/svg/BLACK_GARLIC_path.svg"
+      },
+      { 
+        "title": "ONION",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/ONION.svg",
+        "path": "/svg/ONION_path.svg"
+      },
+      { 
+        "title": "CORIANDER",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/CORIANDER.svg",
+        "path": "/svg/CORIANDER_path.svg"
+      },
+      { 
+        "title": "DAIKON",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/DAIKON.svg",
+        "path": "/svg/DAIKON_path.svg"
+      },
+      { 
+        "title": "NERITIC SQUID",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/NERITIC_SQUID.svg",
+        "path": "/svg/NERITIC_SQUID_path.svg"
+      },
+      { 
+        "title": "OCTOPUS",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/OCTOPUS.svg",
+        "path": "/svg/OCTOPUS_path.svg"
+      },
+      { 
+        "title": "CHERRY TOMATO",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/CHERRY_TOMATO.svg",
+        "path": "/svg/CHERRY_TOMATO_path.svg"
+      },
+      { 
+        "title": "CLAMS",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/CLAMS.svg",
+        "path": "/svg/CLAMS_path.svg"
+      },
+      { 
+        "title": "YILAN SANXING SCALLIAN",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/YILAN_SANXING_SCALLIAN.svg",
+        "path": "/svg/YILAN_SANXING_SCALLIAN_path.svg"
+      },
+      { 
+        "title": "DAHU STRAWBERRY",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/DAHU_STRAWBERRY.svg",
+        "path": "/svg/DAHU_STRAWBERRY_path.svg"
+      },
+      { 
+        "title": "TAINUNG No.17 PINEAPPLE",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/TAINUNG_No.17_PINEAPPLE.svg",
+        "path": "/svg/TAINUNG_No.17_PINEAPPLE_path.svg"
+      },
+      { 
+        "title": "SUGARAPPLE",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/SUGARAPPLE.svg",
+        "path": "/svg/SUGARAPPLE_path.svg"
+      },
+      { 
+        "title": "FIG",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/FIG.svg",
+        "path": "/svg/FIG_path.svg"
+      },
+      { 
+        "title": "KYOHO GRAPE",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/KYOHO_GRAPE.svg",
+        "path": "/svg/KYOHO_GRAPE_path.svg"
+      },
+      { 
+        "title": "LONGAN",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/LONGAN.svg",
+        "path": "/svg/LONGAN_path.svg"
+      },
+      { 
+        "title": "PUFFED-RICE CAKE",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/PUFFED-RICE_CAKE.svg",
+        "path": "/svg/PUFFED-RICE_CAKE_path.svg"
+      },
+      { 
+        "title": "YILAN CHERRY DUCK",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/YILAN_CHERRY_DUCK.svg",
+        "path": "/svg/YILAN_CHERRY_DUCK_path.svg"
+      },
+      { 
+        "title": "PERIGORD TRUFFLE",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/PERIGORD_TRUFFLE.svg",
+        "path": "/svg/PERIGORD_TRUFFLE_path.svg"
+      },
+      { 
+        "title": "BLACKEVILBOAR",
+        "during": 10,
+        "play": "loop",
+        "svg": "/svg/BLACKEVILBOAR.svg",
+        "path": "/svg/BLACKEVILBOAR_path.svg"
+      },
+      { 
+        "title": "EGG",
+        "during": 10,
+        "play": "normal",
+        "svg": "/svg/EGG.svg",
+        "path": "/svg/EGG_path.svg"
+      }
+    ],
+    "public_mint_title": "PUBLIC MINT",
+    "dutch_auction_title": "DUTCH AUCTION",
+    "price_label" : "MINT PRICE",
+    "amount_label": "MINT AMOUNT",
+    "total_label": "TOTAL PRICE",
+    "mint_submit": "MINT NOW"
+  }
+}
