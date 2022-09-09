@@ -33,9 +33,9 @@
   "header": {
     "links": [
       { "to": "/", "title": "STATION" },
-      { "to": "/train", "title": "TRAIN" },
-      { "to": "/the-journey", "title": "THE JOURNEY" },
-      { "to": "/manifesto", "title": "MANIFESTO" }
+      { "to": "/", "title": "TRAIN" },
+      { "to": "/", "title": "THE JOURNEY" },
+      { "to": "/", "title": "MANIFESTO" }
     ],
     "socials": [
       { "icon": "Twitter", "link": "" },
