@@ -1,9 +1,9 @@
 {
   "setting": {
     "audio": [
-      { "name": "123123dasdadsafafas13", "file": "/audio/1.mp3" },
-      { "name": "34634141", "file": "/audio/2.mp3" },
-      { "name": "41167112", "file": "/audio/3.mp3" }
+      { "name": "audio_1", "file": "/audio/1.mp3" },
+      { "name": "audio_2", "file": "/audio/2.mp3" },
+      { "name": "audio_3", "file": "/audio/3.mp3" }
     ],
     "countdown": {
       "datetime": "2022/4/5 0:00",
@@ -32,7 +32,7 @@
   },
   "header": {
     "links": [
-      { "to": "/station", "title": "STATION" },
+      { "to": "/", "title": "STATION" },
       { "to": "/train", "title": "TRAIN" },
       { "to": "/the-journey", "title": "THE JOURNEY" },
       { "to": "/manifesto", "title": "MANIFESTO" }
@@ -68,9 +68,9 @@
     },
     "intro": {
       "list": [
-        "How long have you been stay Cozy?1",
-        "How long have you been stay Cozy?2",
-        "How long have you been stay Cozy?3"
+        "Neque porro quisquam est qui dolorem.",
+        "Ipsum quia dolor sit amet, consectetur.",
+        "Sed ut perspiciatis unde omnis iste natus."
       ]
     },
     "about": {
@@ -259,5 +259,147 @@
     "amount_label": "MINT AMOUNT",
     "total_label": "TOTAL PRICE",
     "mint_submit": "MINT NOW"
+  },
+  "train": {
+    "heading": {
+      "background": "/images/train-heading-bg.png",
+      "main": "/images/train-heading-main.png",
+      "hint": "THAT TAKE THE TRAIN"
+    },
+    "info": {
+      "title": "COZIES ART",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.",
+      "list": [
+        { "title": "TECH", "description": "Demo demo demo demo demo", "photo": "/images/train-info-1.png" },
+        { "title": "COZY", "description": "Demo demo demo demo demo", "photo": "/images/train-info-2.png" },
+        { "title": "JOURNEY", "description": "Demo demo demo demo demo", "photo": "/images/train-info-3.png" }
+      ]
+    },
+    "team": {
+      "title": "TEAM",
+      "content": "Demo word demo word demo word demo word demo word!",
+      "list": [
+        {
+          "photo": "/images/train-team-1.png",
+          "title": "Marketing Manager",
+          "name": "wu-tsu-tsu",
+          "links": [
+            { "label": "discord", "url": "" },
+            { "label": "twitter", "url": "" },
+            { "label": "instagram", "url": "" }
+          ]
+        },
+        {
+          "photo": "/images/train-team-2.png",
+          "title": "Marketing Manager",
+          "name": "zoe chen",
+          "links": [
+            { "label": "discord", "url": "" },
+            { "label": "twitter", "url": "" },
+            { "label": "instagram", "url": "" }
+          ]
+        },
+        {
+          "photo": "/images/train-team-3.png",
+          "title": "Marketing Manager",
+          "name": "andy drewie",
+          "links": [
+            { "label": "discord", "url": "" },
+            { "label": "twitter", "url": "" },
+            { "label": "instagram", "url": "" }
+          ]
+        },
+        {
+          "photo": "/images/train-team-4.png",
+          "title": "Marketing Manager",
+          "name": "Nilesh Vijay",
+          "links": [
+            { "label": "discord", "url": "" },
+            { "label": "twitter", "url": "" },
+            { "label": "instagram", "url": "" }
+          ]
+        },
+        {
+          "photo": "/images/train-team-5.png",
+          "title": "Marketing Manager",
+          "name": "wu-tsu-tsu",
+          "links": [
+            { "label": "discord", "url": "" },
+            { "label": "twitter", "url": "" },
+            { "label": "instagram", "url": "" }
+          ]
+        },
+        {
+          "photo": "/images/train-team-6.png",
+          "title": "Marketing Manager",
+          "name": "zoe chen",
+          "links": [
+            { "label": "discord", "url": "" },
+            { "label": "twitter", "url": "" },
+            { "label": "instagram", "url": "" }
+          ]
+        },
+        {
+          "photo": "/images/train-team-7.png",
+          "title": "Marketing Manager",
+          "name": "andy drewie",
+          "links": [
+            { "label": "discord", "url": "" },
+            { "label": "twitter", "url": "" },
+            { "label": "instagram", "url": "" }
+          ]
+        },
+        {
+          "photo": "/images/train-team-8.png",
+          "title": "Marketing Manager",
+          "name": "Nilesh Vijay",
+          "links": [
+            { "label": "discord", "url": "" },
+            { "label": "twitter", "url": "" },
+            { "label": "instagram", "url": "" }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "list": [
+        {
+          "question": "Demo word demo word demo word demo word demo word?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+        },
+        {
+          "question": "Demo word demo word demo word demo word demo word?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+        },
+        {
+          "question": "Demo word demo word demo word demo word demo word?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+        },
+        {
+          "question": "Demo word demo word demo word demo word demo word?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+        },
+        {
+          "question": "Demo word demo word demo word demo word demo word?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+        },
+        {
+          "question": "Demo word demo word demo word demo word demo word?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+        }
+      ],
+      "note": "If you have any question, you can go <a href='' target='_blank'>Twitter</a> or <a href='' target='_blank'>Discord</a> for help!"
+    }
+  },
+  "journey": {
+    "heading": {
+      "background": "/images/journey-heading-bg.png",
+      "hint": "THAT SEE WHERE WE GO"
+    },
+    "map": {
+      "title": "COZIES MAP",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros."
+    }
   }
 }
