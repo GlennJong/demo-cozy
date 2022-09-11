@@ -33,9 +33,9 @@
   "header": {
     "links": [
       { "to": "/", "title": "STATION" },
-      { "to": "/", "title": "TRAIN" },
-      { "to": "/", "title": "THE JOURNEY" },
-      { "to": "/", "title": "MANIFESTO" }
+      { "to": "/train", "title": "TRAIN" },
+      { "to": "/the-journey", "title": "THE JOURNEY" },
+      { "to": "/manifesto", "title": "MANIFESTO" }
     ],
     "socials": [
       { "icon": "Twitter", "link": "" },
@@ -105,160 +105,7 @@
       },
       "back_to_top": "BACK TO TOP",
       "view_the_train": "VIEW THE TRAIN"
-    },
-    "datetime_title": "COMING SOON",
-    "datetime": "2022/3/30 11:59",
-    "countdown_duration": {"start": "2022/3/28 13:00", "end": "2022/3/30 12:00"},
-    "mint_duration": {"start": "2022/3/30 13:00", "end": "2022/4/12 13:00"},
-    "marquee": "Dining experience among reality and virtual.",
-    "illustration": [
-      { 
-        "title": "BLACK GARLIC",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/BLACK_GARLIC.svg",
-        "path": "/svg/BLACK_GARLIC_path.svg"
-      },
-      { 
-        "title": "ONION",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/ONION.svg",
-        "path": "/svg/ONION_path.svg"
-      },
-      { 
-        "title": "CORIANDER",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/CORIANDER.svg",
-        "path": "/svg/CORIANDER_path.svg"
-      },
-      { 
-        "title": "DAIKON",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/DAIKON.svg",
-        "path": "/svg/DAIKON_path.svg"
-      },
-      { 
-        "title": "NERITIC SQUID",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/NERITIC_SQUID.svg",
-        "path": "/svg/NERITIC_SQUID_path.svg"
-      },
-      { 
-        "title": "OCTOPUS",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/OCTOPUS.svg",
-        "path": "/svg/OCTOPUS_path.svg"
-      },
-      { 
-        "title": "CHERRY TOMATO",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/CHERRY_TOMATO.svg",
-        "path": "/svg/CHERRY_TOMATO_path.svg"
-      },
-      { 
-        "title": "CLAMS",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/CLAMS.svg",
-        "path": "/svg/CLAMS_path.svg"
-      },
-      { 
-        "title": "YILAN SANXING SCALLIAN",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/YILAN_SANXING_SCALLIAN.svg",
-        "path": "/svg/YILAN_SANXING_SCALLIAN_path.svg"
-      },
-      { 
-        "title": "DAHU STRAWBERRY",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/DAHU_STRAWBERRY.svg",
-        "path": "/svg/DAHU_STRAWBERRY_path.svg"
-      },
-      { 
-        "title": "TAINUNG No.17 PINEAPPLE",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/TAINUNG_No.17_PINEAPPLE.svg",
-        "path": "/svg/TAINUNG_No.17_PINEAPPLE_path.svg"
-      },
-      { 
-        "title": "SUGARAPPLE",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/SUGARAPPLE.svg",
-        "path": "/svg/SUGARAPPLE_path.svg"
-      },
-      { 
-        "title": "FIG",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/FIG.svg",
-        "path": "/svg/FIG_path.svg"
-      },
-      { 
-        "title": "KYOHO GRAPE",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/KYOHO_GRAPE.svg",
-        "path": "/svg/KYOHO_GRAPE_path.svg"
-      },
-      { 
-        "title": "LONGAN",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/LONGAN.svg",
-        "path": "/svg/LONGAN_path.svg"
-      },
-      { 
-        "title": "PUFFED-RICE CAKE",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/PUFFED-RICE_CAKE.svg",
-        "path": "/svg/PUFFED-RICE_CAKE_path.svg"
-      },
-      { 
-        "title": "YILAN CHERRY DUCK",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/YILAN_CHERRY_DUCK.svg",
-        "path": "/svg/YILAN_CHERRY_DUCK_path.svg"
-      },
-      { 
-        "title": "PERIGORD TRUFFLE",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/PERIGORD_TRUFFLE.svg",
-        "path": "/svg/PERIGORD_TRUFFLE_path.svg"
-      },
-      { 
-        "title": "BLACKEVILBOAR",
-        "during": 10,
-        "play": "loop",
-        "svg": "/svg/BLACKEVILBOAR.svg",
-        "path": "/svg/BLACKEVILBOAR_path.svg"
-      },
-      { 
-        "title": "EGG",
-        "during": 10,
-        "play": "normal",
-        "svg": "/svg/EGG.svg",
-        "path": "/svg/EGG_path.svg"
-      }
-    ],
-    "public_mint_title": "PUBLIC MINT",
-    "dutch_auction_title": "DUTCH AUCTION",
-    "price_label" : "MINT PRICE",
-    "amount_label": "MINT AMOUNT",
-    "total_label": "TOTAL PRICE",
-    "mint_submit": "MINT NOW"
+    }
   },
   "train": {
     "heading": {
@@ -390,6 +237,10 @@
         }
       ],
       "note": "If you have any question, you can go <a href='' target='_blank'>Twitter</a> or <a href='' target='_blank'>Discord</a> for help!"
+    },
+    "bottom": {
+      "back_to_top": "BACK TO TOP",
+      "view_the_journey": "VIEW THE JOURNEY"
     }
   },
   "journey": {
@@ -400,6 +251,23 @@
     "map": {
       "title": "COZIES MAP",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros."
+    },
+    "mail": {
+      "dialog": "Hi I’m XXXXX, I can help you send the mail!",
+      "title": "CONNECT YOUR MIND",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est.",
+      "placehold": "Start typing...",
+      "max": 1200,
+      "submit": "SUBMIT IDEA"
+    },
+    "bottom": {
+      "back_to_top": "BACK TO TOP",
+      "view_the_manifesto": "VIEW THE MANIFESTO"
     }
+  },
+  "manifesto": {
+    "title": "MANIFESTO",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.",
+    "more": "VIEW MORE"
   }
 }
