@@ -1,9 +1,49 @@
 {
   "setting": {
+    "mint": {
+      "price": 0.2,
+      "max": 3,
+      "welcome": {
+        "type": "heading",
+        "content": "WELCOME\nCOZIES"
+      },
+      "normal": {
+        "type": "img",
+        "content": "/images/mint-normal.png"
+      },
+      "error": {
+        "type": "img",
+        "content": "/images/mint-error.png"
+      },
+      "unconnected": {
+        "type": "text",
+        "content": "<img src='/images/metamask.svg' />You need connect\n wallet first..."
+      },
+      "unmatched": {
+        "type": "text",
+        "content": "One passenger can only mint 5 passes,\nyou can try other wallect\nor buy on opensea"
+      },
+      "select": {
+        "type": "mint",
+        "content": "How many passes would\n you like?"
+      },
+      "qty": {
+        "type": "text",
+        "content": "Passes quantity"
+      },
+      "success": {
+        "type": "status",
+        "title": "GREAT",
+        "content": "You have successfully purchased your passes"
+      },
+      "failed": {
+        "type": "status",
+        "title": "OOPS",
+        "content": "Your purchase failed, that’s try again"
+      }
+    },
     "audio": [
-      { "name": "audio_1", "file": "/audio/1.mp3" },
-      { "name": "audio_2", "file": "/audio/2.mp3" },
-      { "name": "audio_3", "file": "/audio/3.mp3" }
+      { "name": "audio_1", "file": "/audio/1.mp3" }
     ],
     "countdown": {
       "datetime": "2022/4/5 0:00",
@@ -32,35 +72,19 @@
   },
   "header": {
     "links": [
-      { "to": "/", "title": "STATION" },
-      { "to": "/train", "title": "TRAIN" },
-      { "to": "/the-journey", "title": "THE JOURNEY" },
-      { "to": "/manifesto", "title": "MANIFESTO" }
+      { "type": 1, "to": "/", "title": "STATION" },
+      { "type": 1, "to": "/train", "title": "TRAIN" },
+      { "type": 1, "to": "/the-journey", "title": "THE JOURNEY" },
+      { "type": 1, "to": "/manifesto", "title": "MANIFESTO" },
+      { "type": 2, "to": "/", "title": "MINT" }
     ],
     "socials": [
-      { "icon": "Twitter", "link": "" },
+      { "icon": "Twitter", "link": "https://twitter.com/CoziesOfficial" },
       { "icon": "Instagram", "link": "" },
       { "icon": "Discord", "link": "" },
       { "icon": "Opensea", "link": "" }
     ],
     "copyright": "Copyright © 2020 Cozies Inc."
-  },
-  "bottom": {
-    "white_paper": {
-      "link": "https://plateform-by-unname-token.gitbook.io/plateform/unname-token/guan-wu-she-ou",
-      "title": "White Paper"
-    },
-    "connect_wallet": "Connect Wallet",
-    "links": [
-      { "to": "/about", "title": "About" },
-      { "to": "/ingredients-and-cuisine", "title": "Ingredients and Cuisine" },
-      { "to": "/pass-and-feast", "title": "Pass and Feast" },
-      { "to": "/reality-and-virtual", "title": "Reality to Virtual" }
-    ],
-    "socials": [
-      { "icon": "Discord", "link": "https://discord.com/invite/unname-token" },
-      { "icon": "Instagram", "link": "https://www.instagram.com/" }
-    ]
   },
   "homepage": {
     "heading": {
@@ -68,18 +92,17 @@
     },
     "intro": {
       "list": [
-        "Neque porro quisquam est qui dolorem.",
-        "Ipsum quia dolor sit amet, consectetur.",
-        "Sed ut perspiciatis unde omnis iste natus."
+        "Happiness Is a Choice.",
+        "It Starts With Feeling Cozy."
       ]
     },
     "about": {
       "title": "ABOUT",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros."
+      "content": "Cozies is an immersive community-driven movement focused on a \"cozy\" culture of creativity, self-care, and self-discovery. By owning a Cozies, you are making a statement that you are comfortable with who you are, what you own, and where you go. Your Cozies NFT is the key to this journey.\n\n<b>Story</b>\nA group of citizens feel out of place within the FUD-fuelled climate of the city, believing that the technology meant to bring us closer together has resulted in a culture that is only driving us apart.\n\n\nCitizens who wish to break free head to the forgotten Cozy Platform. Awaiting their journey, the motley crew becomes a community that values compassion, self-exploration and mindfulness - The Cozies."
     },
     "gallery": {
       "title": "GALLERY",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.",
+      "content": "Progress doesn't have a one-size-fits-all meaning. Each Cozies character is looking forward, symbolizing one's path, growth, and the reflective nature of the journey. With each character we also wanted to give a sense of adventure, giving holders an opportunity to craft a story of their own journey.",
       "photos": [
         "/images/homepage-gallery-1.png",
         "/images/homepage-gallery-2.png",
@@ -93,7 +116,7 @@
       "title": "FOLLOW US",
       "twitter": {
         "icon": "/images/homepage-social-twitter.svg",
-        "link": ""
+        "link": "https://twitter.com/CoziesOfficial"
       },
       "instagram": {
         "icon": "/images/homepage-social-instagram.svg",
@@ -115,16 +138,16 @@
     },
     "info": {
       "title": "COZIES ART",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.",
+      "content": "Inspired by lo-fi anime aesthetics, sci-fi and streetwear culture, each trait is hand-crafted to reflect a futuristic reality. A crucial time when our actions will determine whether it is a dystopian or a utopian one.",
       "list": [
-        { "title": "TECH", "description": "Demo demo demo demo demo", "photo": "/images/train-info-1.png" },
-        { "title": "COZY", "description": "Demo demo demo demo demo", "photo": "/images/train-info-2.png" },
-        { "title": "JOURNEY", "description": "Demo demo demo demo demo", "photo": "/images/train-info-3.png" }
+        { "title": "TECH", "description": "Inspired by sci-fi and Web3, the Cozies are decked out with technological marvels and bionic augmentations.", "photo": "/images/train-info-1.png" },
+        { "title": "COZY", "description": "Cozy drip and the ability to express oneself is an essential part of being a Cozy.", "photo": "/images/train-info-2.png" },
+        { "title": "JOURNEY", "description": "Your character is ready for a journey - looking forward and seeking deeper knowledge of the world around, and within.", "photo": "/images/train-info-3.png" }
       ]
     },
     "team": {
       "title": "TEAM",
-      "content": "Demo word demo word demo word demo word demo word!",
+      "content": "Our experienced team will ensure a cozy and exciting journey ahead.",
       "list": [
         {
           "photo": "/images/train-team-1.png",
@@ -212,31 +235,43 @@
       "title": "FAQ",
       "list": [
         {
-          "question": "Demo word demo word demo word demo word demo word?",
-          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+          "question": "What is the size of this collection?",
+          "answer": "The Cozies genesis collection will introduce 10,000 unique characters."
         },
         {
-          "question": "Demo word demo word demo word demo word demo word?",
-          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+          "question": "How are the 10000 Cozies distributed?",
+          "answer": "a. A select number of Cozies will directly mint a boarding pass (Golden Ticket - 1 per wallet).  Guaranteed mint within the timeframe.\n\nb. Afterwards, Allowlisted Cozies will be eligible for a boarding pass (Allowlist - 2 per wallet).\nQualified premint.xyz addresses can participate on a first come first serve basis. \n\n\nc. Remaining for Public Sale (3 per wallet)\nAny addresses, including Golden Tickets or Allowlists can participate.\n\nd. 300 of the Cozies will remain with the team for internal growth, incentives and marketing."
         },
         {
-          "question": "Demo word demo word demo word demo word demo word?",
-          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+          "question": "Is there a Discord?",
+          "answer": "The Cozy Platform is currently hidden in a secret location and has limited access. Follow us on Twitter for opportunities to enter it."
         },
         {
-          "question": "Demo word demo word demo word demo word demo word?",
-          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+          "question": "What type of chain and contract do we use?",
+          "answer": "Cozies will arrive to the Ethereum Blockchain post Ethereum mERC-721A"
         },
         {
-          "question": "Demo word demo word demo word demo word demo word?",
-          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+          "question": "What is the mint price?",
+          "answer": "TBA"
         },
         {
-          "question": "Demo word demo word demo word demo word demo word?",
-          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est."
+          "question": "When is the mint date?",
+          "answer": "TBA"
+        },
+        {
+          "question": "When is the reveal?",
+          "answer": "TBA"
+        },
+        {
+          "question": "How do I get an Allowlist spot?",
+          "answer": "All engagement with us is considered. We’re also collaborating with a lot of projects that we resonate with - follow us on Twitter for more opportunities to be allowlisted."
+        },
+        {
+          "question": "What intellectual property rights do the Cozies holders receive?",
+          "answer": "A16Z: Non-Exclusive Commercial Rights (Creator Retains Exploitation Rights) & Termination for Hate Speech"
         }
       ],
-      "note": "If you have any question, you can go <a href='' target='_blank'>Twitter</a> or <a href='' target='_blank'>Discord</a> for help!"
+      "note": "If you have any question, you can go <a href='https://twitter.com/CoziesOfficial' target='_blank'>Twitter</a> or <a href='' target='_blank'>Discord</a> for help!"
     },
     "bottom": {
       "back_to_top": "BACK TO TOP",
