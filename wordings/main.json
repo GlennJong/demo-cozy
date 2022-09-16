@@ -43,7 +43,7 @@
       }
     },
     "audio": [
-      { "name": "audio_1", "file": "/audio/1.mp3" }
+      { "name": "relaxing-japanese-lo-fi-hip-ho", "file": "/audio/relaxing-japanese-lo-fi-hip-ho.mp3" }
     ],
     "countdown": {
       "datetime": "2022/4/5 0:00",
@@ -72,11 +72,11 @@
   },
   "header": {
     "links": [
-      { "type": 1, "to": "/", "title": "STATION" },
-      { "type": 1, "to": "/train", "title": "TRAIN" },
-      { "type": 1, "to": "/the-journey", "title": "THE JOURNEY" },
-      { "type": 1, "to": "/manifesto", "title": "MANIFESTO" },
-      { "type": 2, "to": "/", "title": "MINT" }
+      { "type": 1, "enable": true, "to": "/", "title": "STATION" },
+      { "type": 1, "enable": true, "to": "/train", "title": "TRAIN" },
+      { "type": 1, "enable": false, "to": "/the-journey", "title": "THE JOURNEY" },
+      { "type": 1, "enable": true, "to": "/manifesto", "title": "MANIFESTO" },
+      { "type": 2, "enable": false, "to": "/", "title": "MINT" }
     ],
     "socials": [
       { "icon": "Twitter", "link": "https://twitter.com/CoziesOfficial" },
