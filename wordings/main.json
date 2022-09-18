@@ -161,7 +161,7 @@
       "content": "Our experienced team will ensure a cozy and exciting journey ahead.",
       "list": [
         {
-          "photo": "/images/train-team-1.png",
+          "photo": "/images/train-team-Andrew_Fai.png",
           "title": "Cozy Visionary Officer",
           "name": "Andrew Fai",
           "links": [
@@ -170,7 +170,7 @@
           ]
         },
         {
-          "photo": "/images/train-team-2.png",
+          "photo": "/images/train-team-Adrian_Stefanov.png",
           "title": "Cozy Community Officer",
           "name": "Adrian Stefanov",
           "links": [
@@ -179,7 +179,7 @@
           ]
         },
         {
-          "photo": "/images/train-team-3.png",
+          "photo": "/images/train-team-Alex_Burgess.png",
           "title": "Project Manager",
           "name": "Alex Burgess",
           "links": [
@@ -188,7 +188,7 @@
           ]
         },
         {
-          "photo": "/images/train-team-4.png",
+          "photo": "/images/train-team-Nilesh_Vijay.png",
           "title": "Creative and Production Lead",
           "name": "Nilesh Vijay",
           "links": [
@@ -197,7 +197,7 @@
           ]
         },
         {
-          "photo": "/images/train-team-5.png",
+          "photo": "/images/train-team-David_Kostadinov.png",
           "title": "Cozy Tech Bro",
           "name": "David Kostadinov",
           "links": [
@@ -206,7 +206,7 @@
           ]
         },
         {
-          "photo": "/images/train-team-6.png",
+          "photo": "/images/train-team-Ivan_Minev.png",
           "title": "Marketing Associate",
           "name": "Ivan Minev",
           "links": [
@@ -215,7 +215,7 @@
           ]
         },
         {
-          "photo": "/images/train-team-7.png",
+          "photo": "/images/train-team-Juliana_Walckoff.png",
           "title": "Head of Marketing",
           "name": "Juliana Walckoff",
           "links": [
@@ -225,13 +225,13 @@
           ]
         },
         {
-          "photo": "/images/train-team-7.png",
+          "photo": "/images/train-team-Karla_Assis.png",
           "title": "Head of Partnership",
           "name": "Karla Assis",
           "links": []
         },
         {
-          "photo": "/images/train-team-7.png",
+          "photo": "/images/train-team-Mahalakshmi_V.png",
           "title": "Cozy Project Manager",
           "name": "Mahalakshmi V",
           "links": [
@@ -239,7 +239,7 @@
           ]
         },
         {
-          "photo": "/images/train-team-7.png",
+          "photo": "/images/train-team-💫_Karan_Kumar.png",
           "title": "Marketing Associate",
           "name": "💫 Karan Kumar",
           "links": [
@@ -248,7 +248,7 @@
           ]
         },
         {
-          "photo": "/images/train-team-8.png",
+          "photo": "/images/train-team-Ryan_Hofmann.png",
           "title": "Lead 3D Artist",
           "name": "Ryan Hofmann",
           "links": [
@@ -330,7 +330,7 @@
   },
   "manifesto": {
     "title": "MANIFESTO",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.",
+    "content": "Sometimes rebelling can be as easy as walking the opposite way to the crowd.",
     "more": "WHITEPAPER COMING SOON"
   },
   "user": {
