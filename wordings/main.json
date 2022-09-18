@@ -74,18 +74,26 @@
     "links": [
       { "type": 1, "enable": true, "to": "/", "title": "STATION" },
       { "type": 1, "enable": true, "to": "/train", "title": "TRAIN" },
-      { "type": 1, "enable": true, "to": "/the-journey", "title": "THE JOURNEY" },
+      { "type": 1, "enable": false, "to": "/the-journey", "title": "THE JOURNEY" },
       { "type": 1, "enable": true, "to": "/manifesto", "title": "MANIFESTO" },
-      { "type": 2, "enable": true, "to": "/mint", "title": "MINT" },
-      { "type": 2, "enable": true, "to": "/collection", "title": "USER" }
+      { "type": 2, "enable": false, "to": "/", "title": "MINT" }
     ],
     "socials": [
-      { "icon": "Twitter", "link": "https://twitter.com/CoziesOfficial" },
-      { "icon": "Instagram", "link": "" },
-      { "icon": "Discord", "link": "" },
-      { "icon": "Opensea", "link": "" }
+      { "icon": "Twitter", "enable": true, "link": "https://twitter.com/CoziesOfficial" },
+      { "icon": "Instagram", "enable": true, "link": "https://instagram.com/journeywithcozies" },
+      { "icon": "Discord", "enable": true, "link": "https://discord.gg/5umNfcab6R" },
+      { "icon": "Opensea", "enable": false, "link": "" }
     ],
     "copyright": "Copyright © 2020 Cozies Inc."
+  },
+  "footer": {
+    "socials": [
+      { "icon": "Twitter", "enable": true, "link": "https://twitter.com/CoziesOfficial" },
+      { "icon": "Instagram", "enable": true, "link": "https://instagram.com/journeywithcozies" },
+      { "icon": "Discord", "enable": true, "link": "https://discord.gg/5umNfcab6R" },
+      { "icon": "Opensea", "enable": false, "link": "" }
+    ],
+    "copyright": "2022 DLL Foundation | All Right Reserved"
   },
   "homepage": {
     "heading": {
@@ -98,8 +106,10 @@
       ]
     },
     "about": {
-      "title": "ABOUT",
-      "content": "Cozies is an immersive community-driven movement focused on a \"cozy\" culture of creativity, self-care, and self-discovery. By owning a Cozies, you are making a statement that you are comfortable with who you are, what you own, and where you go. Your Cozies NFT is the key to this journey.\n\n<b>Story</b>\nA group of citizens feel out of place within the FUD-fuelled climate of the city, believing that the technology meant to bring us closer together has resulted in a culture that is only driving us apart.\n\n\nCitizens who wish to break free head to the forgotten Cozy Platform. Awaiting their journey, the motley crew becomes a community that values compassion, self-exploration and mindfulness - The Cozies."
+      "about_title": "ABOUT",
+      "about_content": "Cozies is an immersive community-driven movement focused on a \"cozy\" culture of creativity, self-care, and self-discovery. By owning a Cozies, you are making a statement that you are comfortable with who you are, what you own, and where you go. Your Cozies NFT is the key to this journey.",
+      "story_title": "STORY",
+      "story_content": "A group of citizens feel out of place within the FUD-fuelled climate of the city, believing that the technology meant to bring us closer together has resulted in a culture that is only driving us apart.\n\n\nCitizens who wish to break free head to the forgotten Cozy Platform. Awaiting their journey, the motley crew becomes a community that values compassion, self-exploration and mindfulness - The Cozies."
     },
     "gallery": {
       "title": "GALLERY",
@@ -121,11 +131,11 @@
       },
       "instagram": {
         "icon": "/images/homepage-social-instagram.svg",
-        "link": ""
+        "link": "https://instagram.com/journeywithcozies"
       },
       "discord": {
         "icon": "/images/homepage-social-discord.svg",
-        "link": ""
+        "link": "https://discord.gg/5umNfcab6R"
       },
       "back_to_top": "BACK TO TOP",
       "view_the_train": "VIEW THE TRAIN"
@@ -152,82 +162,99 @@
       "list": [
         {
           "photo": "/images/train-team-1.png",
-          "title": "Marketing Manager",
-          "name": "wu-tsu-tsu",
+          "title": "Cozy Visionary Officer",
+          "name": "Andrew Fai",
           "links": [
-            { "label": "discord", "url": "" },
-            { "label": "twitter", "url": "" },
-            { "label": "instagram", "url": "" }
+            { "label": "linkedin", "url": "https://www.linkedin.com/in/andrewfai" },
+            { "label": "twitter", "url": "https://twitter.com/andydrewie" }
           ]
         },
         {
           "photo": "/images/train-team-2.png",
-          "title": "Marketing Manager",
-          "name": "zoe chen",
+          "title": "Cozy Community Officer",
+          "name": "Adrian Stefanov",
           "links": [
-            { "label": "discord", "url": "" },
-            { "label": "twitter", "url": "" },
-            { "label": "instagram", "url": "" }
+            { "label": "linkedin", "url": "https://www.linkedin.com/in/adrian-st/" },
+            { "label": "twitter", "url": "https://twitter.com/StefanovAdrian" }
           ]
         },
         {
           "photo": "/images/train-team-3.png",
-          "title": "Marketing Manager",
-          "name": "andy drewie",
+          "title": "Project Manager",
+          "name": "Alex Burgess",
           "links": [
-            { "label": "discord", "url": "" },
-            { "label": "twitter", "url": "" },
-            { "label": "instagram", "url": "" }
+            { "label": "twitter", "url": "https://twitter.com/alexcburgess" },
+            { "label": "instagram", "url": "https://www.instagram.com/alexcburgess/" }
           ]
         },
         {
           "photo": "/images/train-team-4.png",
-          "title": "Marketing Manager",
+          "title": "Creative and Production Lead",
           "name": "Nilesh Vijay",
           "links": [
-            { "label": "discord", "url": "" },
-            { "label": "twitter", "url": "" },
-            { "label": "instagram", "url": "" }
+            { "label": "linkedin", "url": "https://www.linkedin.com/in/nilesh-vijay-619485171/" },
+            { "label": "instagram", "url": "https://www.instagram.com/pvrplebreeze/" }
           ]
         },
         {
           "photo": "/images/train-team-5.png",
-          "title": "Marketing Manager",
-          "name": "wu-tsu-tsu",
+          "title": "Cozy Tech Bro",
+          "name": "David Kostadinov",
           "links": [
-            { "label": "discord", "url": "" },
-            { "label": "twitter", "url": "" },
-            { "label": "instagram", "url": "" }
+            { "label": "linkedin", "url": "https://www.linkedin.com/in/david-kostadinov" },
+            { "label": "twitter", "url": "https://twitter.com/kostadinov_do" }
           ]
         },
         {
           "photo": "/images/train-team-6.png",
-          "title": "Marketing Manager",
-          "name": "zoe chen",
+          "title": "Marketing Associate",
+          "name": "Ivan Minev",
           "links": [
-            { "label": "discord", "url": "" },
-            { "label": "twitter", "url": "" },
-            { "label": "instagram", "url": "" }
+            { "label": "linkedin", "url": "https://www.linkedin.com/in/ivan-minev-539472158/" },
+            { "label": "twitter", "url": "https://twitter.com/seemotions" }
           ]
         },
         {
           "photo": "/images/train-team-7.png",
-          "title": "Marketing Manager",
-          "name": "andy drewie",
+          "title": "Head of Marketing",
+          "name": "Juliana Walckoff",
           "links": [
-            { "label": "discord", "url": "" },
-            { "label": "twitter", "url": "" },
-            { "label": "instagram", "url": "" }
+            { "label": "linkedin", "url": "https://www.linkedin.com/in/juliana-walckoff/" },
+            { "label": "twitter", "url": "https://www.twitter.com/walckoff" },
+            { "label": "instagram", "url": "https://www.instagram.com/juwalckoff/" }
+          ]
+        },
+        {
+          "photo": "/images/train-team-7.png",
+          "title": "Head of Partnership",
+          "name": "Karla Assis",
+          "links": []
+        },
+        {
+          "photo": "/images/train-team-7.png",
+          "title": "Cozy Project Manager",
+          "name": "Mahalakshmi V",
+          "links": [
+            { "label": "linkedin", "url": "https://www.linkedin.com/in/mahalakshmi-vijayakumar-product-operations-manager/" }
+          ]
+        },
+        {
+          "photo": "/images/train-team-7.png",
+          "title": "Marketing Associate",
+          "name": "💫 Karan Kumar",
+          "links": [
+            { "label": "linkedin", "url": "https://www.linkedin.com/in/karan-loves-nfts" },
+            { "label": "twitter", "url": "https://twitter.com/BinuETH" }
           ]
         },
         {
           "photo": "/images/train-team-8.png",
-          "title": "Marketing Manager",
-          "name": "Nilesh Vijay",
+          "title": "Lead 3D Artist",
+          "name": "Ryan Hofmann",
           "links": [
-            { "label": "discord", "url": "" },
-            { "label": "twitter", "url": "" },
-            { "label": "instagram", "url": "" }
+            { "label": "linkedin", "url": "https://www.linkedin.com/in/ryandhofmann/" },
+            { "label": "twitter", "url": "https://twitter.com/ryandhofmann" },
+            { "label": "instagram", "url": "https://www.instagram.com/ryandhofmann/" }
           ]
         }
       ]
@@ -272,7 +299,7 @@
           "answer": "A16Z: Non-Exclusive Commercial Rights (Creator Retains Exploitation Rights) & Termination for Hate Speech"
         }
       ],
-      "note": "If you have any question, you can go <a href='https://twitter.com/CoziesOfficial' target='_blank'>Twitter</a> or <a href='' target='_blank'>Discord</a> for help!"
+      "note": "If you have any question, please go to our <a href='https://twitter.com/CoziesOfficial' target='_blank'>Twitter</a> or <a href='https://discord.gg/5umNfcab6R' target='_blank'>Discord</a> for help!"
     },
     "bottom": {
       "back_to_top": "BACK TO TOP",
@@ -304,7 +331,7 @@
   "manifesto": {
     "title": "MANIFESTO",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros.",
-    "more": "VIEW MORE"
+    "more": "WHITEPAPER COMING SOON"
   },
   "user": {
     "id": "TOKEN ID",
