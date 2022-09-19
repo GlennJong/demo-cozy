@@ -78,7 +78,7 @@
       { "type": 1, "enable": true, "to": "/train", "title": "TRAIN" },
       { "type": 1, "enable": false, "to": "/the-journey", "title": "THE JOURNEY" },
       { "type": 1, "enable": true, "to": "/manifesto", "title": "MANIFESTO" },
-      { "type": 2, "enable": false, "to": "/", "title": "MINT" }
+      { "type": 2, "enable": false, "to": "/mint", "title": "MINT" }
     ],
     "socials": [
       { "icon": "Twitter", "enable": true, "link": "https://twitter.com/CoziesOfficial" },
@@ -95,7 +95,7 @@
       { "icon": "Discord", "enable": true, "link": "https://discord.gg/5umNfcab6R" },
       { "icon": "Opensea", "enable": false, "link": "" }
     ],
-    "copyright": "2022 DLL Foundation | All Right Reserved"
+    "copyright": "2022 DLL Foundation | All Rights Reserved"
   },
   "homepage": {
     "heading": {
@@ -328,7 +328,8 @@
   },
   "manifesto": {
     "title": "MANIFESTO",
-    "content": "<i>A revolution doesn’t have to be a rebellion. Instead, lasting change comes to those who light the fuse of change within. A quiet revolution, the spark that ignites the hearth - there, we sit together and discover what cozy means - observing, cherishing and being true. Only once we embark on our own journeys can we take others on it.</i><br/><br/><b>Happiness is a choice. It starts with being cozy.</b>",
+    "content": "A revolution doesn’t have to be a rebellion. Instead, lasting change comes to those who light the fuse of change within. A quiet revolution, the spark that ignites the hearth - there, we sit together and discover what cozy means - observing, cherishing and being true. Only once we embark on our own journeys can we take others on it.",
+    "quote": "Happiness is a choice. It starts with being cozy.",
     "more": "WHITEPAPER COMING SOON"
   },
   "user": {
