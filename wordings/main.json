@@ -183,8 +183,8 @@
           "title": "Project \nManager",
           "name": "Alex Burgess",
           "links": [
-            { "label": "twitter", "url": "https://twitter.com/alexcburgess" },
-            { "label": "instagram", "url": "https://www.instagram.com/alexcburgess/" }
+            { "label": "instagram", "url": "https://www.instagram.com/alexcburgess/" },
+            { "label": "twitter", "url": "https://twitter.com/alexcburgess" }
           ]
         },
         {
@@ -220,8 +220,8 @@
           "name": "Juliana Walckoff",
           "links": [
             { "label": "linkedin", "url": "https://www.linkedin.com/in/juliana-walckoff/" },
-            { "label": "twitter", "url": "https://www.twitter.com/walckoff" },
-            { "label": "instagram", "url": "https://www.instagram.com/juwalckoff/" }
+            { "label": "instagram", "url": "https://www.instagram.com/juwalckoff/" },
+            { "label": "twitter", "url": "https://www.twitter.com/walckoff" }
           ]
         },
         {
@@ -253,8 +253,8 @@
           "name": "Ryan Hofmann",
           "links": [
             { "label": "linkedin", "url": "https://www.linkedin.com/in/ryandhofmann/" },
-            { "label": "twitter", "url": "https://twitter.com/ryandhofmann" },
-            { "label": "instagram", "url": "https://www.instagram.com/ryandhofmann/" }
+            { "label": "instagram", "url": "https://www.instagram.com/ryandhofmann/" },
+            { "label": "twitter", "url": "https://twitter.com/ryandhofmann" }
           ]
         }
       ]
