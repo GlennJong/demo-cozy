@@ -43,7 +43,9 @@
       }
     },
     "audio": [
-      { "name": "relaxing-japanese-lo-fi-hip-ho", "file": "/audio/relaxing-japanese-lo-fi-hip-ho.mp3" }
+      { "name": "A LoFi Dream", "file": "/audio/A LoFi Dream.mp3" },
+      { "name": "Beautiful Story", "file": "/audio/Beautiful Story.mp3" },
+      { "name": "Downtown City", "file": "/audio/Downtown City.mp3" }
     ],
     "countdown": {
       "datetime": "2022/4/5 0:00",
@@ -239,9 +241,9 @@
           ]
         },
         {
-          "photo": "/images/train-team-💫_Karan_Kumar.png",
+          "photo": "/images/train-team-Karan_Kumar.png",
           "title": "GROWTH \nLEAD",
-          "name": "💫 Karan Kumar",
+          "name": "Karan Kumar",
           "links": [
             { "label": "linkedin", "url": "https://www.linkedin.com/in/karan-loves-nfts" },
             { "label": "twitter", "url": "https://twitter.com/BinuETH" }
@@ -271,10 +273,6 @@
           "answer": "a. A select number of Cozies will directly mint a boarding pass (Golden Ticket - 1 per wallet).  Guaranteed mint within the timeframe.\n\nb. Afterwards, Allowlisted Cozies will be eligible for a boarding pass (Allowlist - 2 per wallet).\nQualified premint.xyz addresses can participate on a first come first serve basis. \n\n\nc. Remaining for Public Sale (3 per wallet)\nAny addresses, including Golden Tickets or Allowlists can participate.\n\nd. 300 of the Cozies will remain with the team for internal growth, incentives and marketing."
         },
         {
-          "question": "Is there a Discord?",
-          "answer": "The Cozy Platform is currently hidden in a secret location and has limited access. Follow us on Twitter for opportunities to enter it."
-        },
-        {
           "question": "What type of chain and contract do we use?",
           "answer": "Cozies will arrive to the Ethereum Blockchain post Ethereum mERC-721A"
         },
@@ -299,7 +297,7 @@
           "answer": "A16Z: Non-Exclusive Commercial Rights (Creator Retains Exploitation Rights) & Termination for Hate Speech"
         }
       ],
-      "note": "If you have any question, please go to our <a href='https://twitter.com/CoziesOfficial' target='_blank'>Twitter</a> or <a href='https://discord.gg/5umNfcab6R' target='_blank'>Discord</a> for help!"
+      "note": "If you have any questions, please go to our <a href='https://twitter.com/CoziesOfficial' target='_blank'>Twitter</a> or <a href='https://discord.gg/5umNfcab6R' target='_blank'>Discord</a> for help!"
     },
     "bottom": {
       "back_to_top": "BACK TO TOP",
@@ -330,7 +328,7 @@
   },
   "manifesto": {
     "title": "MANIFESTO",
-    "content": "Sometimes rebelling can be as easy as walking the opposite way to the crowd.",
+    "content": "<i>A revolution doesn’t have to be a rebellion. Instead, lasting change comes to those who light the fuse of change within. A quiet revolution, the spark that ignites the hearth - there, we sit together and discover what cozy means - observing, cherishing and being true. Only once we embark on our own journeys can we take others on it.</i><br/><br/><b>Happiness is a choice. It starts with being cozy.</b>",
     "more": "WHITEPAPER COMING SOON"
   },
   "user": {
