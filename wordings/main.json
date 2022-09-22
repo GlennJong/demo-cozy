@@ -350,6 +350,7 @@
     }
   },
   "journey": {
+    "title": "Cozies",
     "heading": {
       "background": "/images/journey-heading-bg.png",
       "hint": "THAT SEE WHERE WE GO"
@@ -372,6 +373,7 @@
     }
   },
   "manifesto": {
+    "meta_title": "Cozies Manifesto",
     "title": "MANIFESTO",
     "content": "A revolution doesn’t have to be a rebellion. Instead, lasting change comes to those who light the fuse of change within. A quiet revolution, the spark that ignites the hearth - there, we sit together and discover what cozy means - observing, cherishing and being true. Only once we embark on our own journeys can we take others on it.",
     "quote": "Happiness is a choice. It starts with being cozy.",
