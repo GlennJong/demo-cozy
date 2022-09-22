@@ -73,6 +73,8 @@
     }
   },
   "header": {
+    "logo": "/images/header-logo.png",
+    "logo_alt": "Cozies logo",
     "links": [
       { "type": 1, "enable": true, "to": "/", "title": "STATION" },
       { "type": 1, "enable": true, "to": "/train", "title": "TRAIN" },
@@ -89,6 +91,8 @@
     "copyright": "Copyright © 2020 Cozies Inc."
   },
   "footer": {
+    "logo": "/images/header-logo.png",
+    "logo_alt": "Cozies logo",
     "socials": [
       { "icon": "Twitter", "enable": true, "link": "https://twitter.com/CoziesOfficial" },
       { "icon": "Instagram", "enable": true, "link": "https://instagram.com/journeywithcozies" },
@@ -98,8 +102,10 @@
     "copyright": "2022 DLL Foundation | All Rights Reserved"
   },
   "homepage": {
+    "title": "Cozies",
     "heading": {
-      "banner": "/images/homepage-heading.png"
+      "banner": "/images/homepage-heading.png",
+      "banner_alt": "Cozies' Cozy Platform hero banner"
     },
     "intro": {
       "list": [
@@ -110,6 +116,10 @@
     "about": {
       "about_title": "ABOUT",
       "about_content": "Cozies is an immersive community-driven movement focused on a \"cozy\" culture of creativity, self-care, and self-discovery. By owning a Cozies, you are making a statement that you are comfortable with who you are, what you own, and where you go. Your Cozies NFT is the key to this journey.",
+      "item_1": "/images/homepage-about-item-1.png",
+      "item_1_alt": "Cozies flying lamp",
+      "item_2": "/images/homepage-about-item-2.png",
+      "item_2_alt": "Cozies round drone",
       "story_title": "STORY",
       "story_content": "A group of citizens feel out of place within the FUD-fuelled climate of the city, believing that the technology meant to bring us closer together has resulted in a culture that is only driving us apart.\n\n\nCitizens who wish to break free head to the forgotten Cozy Platform. Awaiting their journey, the motley crew becomes a community that values compassion, self-exploration and mindfulness - The Cozies."
     },
@@ -117,45 +127,67 @@
       "title": "GALLERY",
       "content": "Progress doesn't have a one-size-fits-all meaning. Each Cozies character is looking forward, symbolizing one's path, growth, and the reflective nature of the journey. With each character we also wanted to give a sense of adventure, giving holders an opportunity to craft a story of their own journey.",
       "photos": [
-        "/images/homepage-gallery-1.png",
-        "/images/homepage-gallery-2.png",
-        "/images/homepage-gallery-3.png",
-        "/images/homepage-gallery-4.png",
-        "/images/homepage-gallery-5.png",
-        "/images/homepage-gallery-6.png"
+        { "url": "/images/homepage-gallery-blue.png", "alt": "Cozies NFT blue background" },
+        { "url": "/images/homepage-gallery-purple.png", "alt": "Cozies NFT purple background" },
+        { "url": "/images/homepage-gallery-gray.png", "alt": "Cozies NFT gray background" },
+        { "url": "/images/homepage-gallery-orange.png", "alt": "Cozies NFT orange background" },
+        { "url": "/images/homepage-gallery-green.png", "alt": "Cozies NFT green background" },
+        { "url": "/images/homepage-gallery-pink.png", "alt": "Cozies NFT pink background" }
       ]
     },
     "social": {
       "title": "FOLLOW US",
       "twitter": {
         "icon": "/images/homepage-social-twitter.svg",
-        "link": "https://twitter.com/CoziesOfficial"
+        "link": "https://twitter.com/CoziesOfficial",
+        "alt": "Cozies Twitter account icon"
       },
       "instagram": {
         "icon": "/images/homepage-social-instagram.svg",
-        "link": "https://instagram.com/journeywithcozies"
+        "link": "https://instagram.com/journeywithcozies",
+        "alt": "Cozies Instagram account icon"
       },
       "discord": {
         "icon": "/images/homepage-social-discord.svg",
-        "link": "https://discord.gg/5umNfcab6R"
+        "link": "https://discord.gg/5umNfcab6R",
+        "alt": "Cozies Discord account icon"
       },
+      "bottom": "/images/homepage-social-bottom.png",
+      "bottom_alt": "Cozies character Jeeves",
       "back_to_top": "BACK TO TOP",
       "view_the_train": "VIEW THE TRAIN"
     }
   },
   "train": {
+    "title": "Cozies Train",
     "heading": {
       "background": "/images/train-heading-bg.png",
       "main": "/images/train-heading-main.png",
+      "main_alt": "Cozies NFT hero banner",
       "hint": "THAT TAKE THE TRAIN"
     },
     "info": {
       "title": "COZIES ART",
       "content": "Inspired by lo-fi anime aesthetics, sci-fi and streetwear culture, each trait is hand-crafted to reflect a futuristic reality. A crucial time when our actions will determine whether it is a dystopian or a utopian one.",
       "list": [
-        { "title": "TECH", "description": "Inspired by sci-fi and Web3, the Cozies are decked out with technological marvels and bionic augmentations.", "photo": "/images/train-info-1.png" },
-        { "title": "COZY", "description": "Cozy drip and the ability to express oneself is an essential part of being Cozies.", "photo": "/images/train-info-2.png" },
-        { "title": "JOURNEY", "description": "Your character is ready for a journey - looking forward and seeking deeper knowledge of the world around, and within.", "photo": "/images/train-info-3.png" }
+        { 
+          "title": "TECH",
+          "description": "Inspired by sci-fi and Web3, the Cozies are decked out with technological marvels and bionic augmentations.",
+          "photo": "/images/train-info-1.png",
+          "photo_alt": "Cozies drone"
+        },
+        { 
+          "title": "COZY",
+          "description": "Cozy drip and the ability to express oneself is an essential part of being Cozies.",
+          "photo": "/images/train-info-2.png",
+          "photo_alt": "Cozies cap and sneaker"
+        },
+        { 
+          "title": "JOURNEY",
+          "description": "Your character is ready for a journey - looking forward and seeking deeper knowledge of the world around, and within.",
+          "photo": "/images/train-info-3.png",
+          "photo_alt": "Cozies flying backpack"
+        }
       ]
     },
     "team": {
@@ -164,6 +196,7 @@
       "list": [
         {
           "photo": "/images/train-team-Andrew_Fai.png",
+          "photo_alt": "Cozies Andrew Fai profile image",
           "title": "Cozy Visionary \nOfficer",
           "name": "Andrew Fai",
           "links": [
@@ -173,6 +206,7 @@
         },
         {
           "photo": "/images/train-team-Adrian_Stefanov.png",
+          "photo_alt": "Cozies Adrian Stefanov profile image",
           "title": "Cozy Community \nOfficer",
           "name": "Adrian Stefanov",
           "links": [
@@ -182,6 +216,7 @@
         },
         {
           "photo": "/images/train-team-Alex_Burgess.png",
+          "photo_alt": "Cozies Alex Burgess profile image",
           "title": "Project \nManager",
           "name": "Alex Burgess",
           "links": [
@@ -191,6 +226,7 @@
         },
         {
           "photo": "/images/train-team-Nilesh_Vijay.png",
+          "photo_alt": "Cozies Nilesh Vijay profile image",
           "title": "Creative and \nProduction Lead",
           "name": "Nilesh Vijay",
           "links": [
@@ -200,6 +236,7 @@
         },
         {
           "photo": "/images/train-team-David_Kostadinov.png",
+          "photo_alt": "Cozies David Kostadinov profile image",
           "title": "Cozy \nTech Bro",
           "name": "David Kostadinov",
           "links": [
@@ -209,6 +246,7 @@
         },
         {
           "photo": "/images/train-team-Ivan_Minev.png",
+          "photo_alt": "Cozies Ivan Minev profile image",
           "title": "Brand \nManager",
           "name": "Ivan Minev",
           "links": [
@@ -218,6 +256,7 @@
         },
         {
           "photo": "/images/train-team-Juliana_Walckoff.png",
+          "photo_alt": "Cozies Juliana Walckoff profile image",
           "title": "Head \nof Marketing",
           "name": "Juliana Walckoff",
           "links": [
@@ -228,12 +267,14 @@
         },
         {
           "photo": "/images/train-team-Karla_Assis.png",
+          "photo_alt": "Cozies Karla Assis profile image",
           "title": "Head \nof Partnership",
           "name": "Karla Assis",
           "links": []
         },
         {
           "photo": "/images/train-team-Mahalakshmi_V.png",
+          "photo_alt": "Cozies Mahalakshmi V profile image",
           "title": "Cozy Project\n Manager",
           "name": "Mahalakshmi V",
           "links": [
@@ -242,6 +283,7 @@
         },
         {
           "photo": "/images/train-team-Karan_Kumar.png",
+          "photo_alt": "Cozies Karan Kumar profile image",
           "title": "GROWTH \nLEAD",
           "name": "Karan Kumar",
           "links": [
@@ -251,6 +293,7 @@
         },
         {
           "photo": "/images/train-team-Ryan_Hofmann.png",
+          "photo_alt": "Cozies Ryan Hofmann profile image",
           "title": "Lead 3D \nArtist",
           "name": "Ryan Hofmann",
           "links": [
@@ -263,6 +306,8 @@
     },
     "faq": {
       "title": "FAQ",
+      "bottom": "/images/train-faq-bottom.png",
+      "bottom_alt": "Cozies character Jeeves wearing a cap",
       "list": [
         {
           "question": "What is the size of this collection?",
