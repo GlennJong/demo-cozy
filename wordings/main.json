@@ -31,7 +31,7 @@
         "type": "various",
         "content": "Passes quantity $qty\n Price $price ETH"
       },
-      "success": {
+      "succeed": {
         "type": "status",
         "title": "GREAT",
         "content": "You have successfully purchased your passes"
@@ -102,7 +102,7 @@
     "copyright": "2022 DLL Foundation | All Rights Reserved"
   },
   "homepage": {
-    "title": "Cozies",
+    "meta_title": "Cozies",
     "heading": {
       "banner": "/images/homepage-heading.png",
       "banner_alt": "Cozies' Cozy Platform hero banner"
@@ -159,7 +159,7 @@
     }
   },
   "train": {
-    "title": "Cozies Train",
+    "meta_title": "Cozies Train",
     "heading": {
       "background": "/images/train-heading-bg.png",
       "main": "/images/train-heading-main.png",
@@ -319,7 +319,7 @@
         },
         {
           "question": "What type of chain and contract do we use?",
-          "answer": "Cozies will arrive to the Ethereum Blockchain post Ethereum ERC-721A"
+          "answer": "Cozies will arrive to the Ethereum Blockchain, and they will be minted with the ERC-721A token standard."
         },
         {
           "question": "What is the mint price?",
@@ -350,7 +350,7 @@
     }
   },
   "journey": {
-    "title": "Cozies",
+    "meta_title": "Cozies",
     "heading": {
       "background": "/images/journey-heading-bg.png",
       "hint": "THAT SEE WHERE WE GO"
