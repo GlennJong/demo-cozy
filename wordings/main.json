@@ -80,7 +80,7 @@
       { "type": 1, "enable": true, "to": "/train", "title": "TRAIN" },
       { "type": 1, "enable": false, "to": "/the-journey", "title": "THE JOURNEY" },
       { "type": 1, "enable": true, "to": "/manifesto", "title": "MANIFESTO" },
-      { "type": 2, "enable": false, "to": "/mint", "title": "MINT" }
+      { "type": 2, "enable": true, "to": "/mint", "title": "MINT" }
     ],
     "socials": [
       { "icon": "Twitter", "enable": true, "link": "https://twitter.com/CoziesOfficial" },
