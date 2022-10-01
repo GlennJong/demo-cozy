@@ -78,7 +78,7 @@
     "links": [
       { "type": 1, "enable": true, "to": "/", "title": "STATION" },
       { "type": 1, "enable": true, "to": "/train", "title": "TRAIN" },
-      { "type": 1, "enable": false, "to": "/the-journey", "title": "THE JOURNEY" },
+      { "type": 1, "enable": true, "to": "/the-journey", "title": "THE JOURNEY" },
       { "type": 1, "enable": true, "to": "/manifesto", "title": "MANIFESTO" },
       { "type": 2, "enable": true, "to": "/mint", "title": "MINT" }
     ],
