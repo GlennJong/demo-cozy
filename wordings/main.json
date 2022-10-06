@@ -48,28 +48,18 @@
       { "name": "Downtown City", "file": "/audio/Downtown City.mp3" }
     ],
     "countdown": {
-      "datetime": "2022/4/5 0:00",
+      "title": "MINT TIME",
+      "datetime": "Oct 10 2022 23:50:00 GMT-0500",
       "duration": {
-        "start": "2022/4/3 13:00",
-        "end": "2022/4/5 0:00"
+        "start": "Oct 4 2022 23:0:00 GMT-0500",
+        "end": "Oct 10 2022 10:00:00 GMT-0500"
       }
     },
     "public_mint": {
       "duration": {
-        "start": "2022/4/5 0:00",
-        "end": "2022/4/6 23:59:59"
-      },
-      "price": 0.2
-    },
-    "dutch_auction": {
-      "duration": {
-        "start": "2022/4/7 16:00",
-        "end": "2022/4/8 18:31"
-      },
-      "time_step": 30,
-      "price_step": 0.0012,
-      "start_price": 0.2,
-      "end_price": 0.1
+        "start": "GMT+8 2022/10/5 23:00",
+        "end": "GMT+8 2022/10/5 23:50"
+      }
     }
   },
   "header": {
@@ -78,9 +68,9 @@
     "links": [
       { "type": 1, "enable": true, "to": "/", "title": "STATION" },
       { "type": 1, "enable": true, "to": "/train", "title": "TRAIN" },
-      { "type": 1, "enable": true, "to": "/the-journey", "title": "THE JOURNEY" },
+      { "type": 1, "enable": false, "to": "/the-journey", "title": "THE JOURNEY" },
       { "type": 1, "enable": true, "to": "/manifesto", "title": "MANIFESTO" },
-      { "type": 2, "enable": true, "to": "/mint", "title": "MINT" }
+      { "type": 2, "enable": false, "to": "/mint", "title": "MINT" }
     ],
     "socials": [
       { "icon": "Twitter", "enable": true, "link": "https://twitter.com/CoziesOfficial" },
@@ -109,23 +99,23 @@
     "meta_title": "Cozies",
     "heading": {
       "banner": "/images/homepage-heading.png",
-      "banner_alt": "Cozies' Cozy Platform hero banner"
+      "banner_alt": "Cozies' Cozies Platform hero banner"
     },
     "intro": {
       "list": [
         "Happiness Is a Choice.",
-        "It Starts With Feeling Cozy."
+        "It Starts With Feeling Cozies."
       ]
     },
     "about": {
       "about_title": "ABOUT",
-      "about_content": "Cozies is an immersive community-driven movement focused on a \"cozy\" culture of creativity, self-care, and self-discovery. By owning a Cozies, you are making a statement that you are comfortable with who you are, what you own, and where you go. Your Cozies NFT is the key to this journey.",
+      "about_content": "Cozies is an immersive community-driven movement focused on a \"cozies\" culture of creativity, self-care, and self-discovery. By owning a Cozies, you are making a statement that you are comfortable with who you are, what you own, and where you go. Your Cozies NFT is the key to this journey.",
       "item_1": "/images/homepage-about-item-1.png",
       "item_1_alt": "Cozies flying lamp",
       "item_2": "/images/homepage-about-item-2.png",
       "item_2_alt": "Cozies round drone",
       "story_title": "STORY",
-      "story_content": "A group of citizens feel out of place within the FUD-fuelled climate of the city, believing that the technology meant to bring us closer together has resulted in a culture that is only driving us apart.\n\n\nCitizens who wish to break free head to the forgotten Cozy Platform. Awaiting their journey, the motley crew becomes a community that values compassion, self-exploration and mindfulness - The Cozies."
+      "story_content": "A group of citizens feel out of place within the FUD-fuelled climate of the city, believing that the technology meant to bring us closer together has resulted in a culture that is only driving us apart.\n\n\nCitizens who wish to break free head to the forgotten Cozies Platform. Awaiting their journey, the motley crew becomes a community that values compassion, self-exploration and mindfulness - The Cozies."
     },
     "gallery": {
       "title": "GALLERY",
@@ -182,7 +172,7 @@
         },
         { 
           "title": "COZY",
-          "description": "Cozy drip and the ability to express oneself is an essential part of being Cozies.",
+          "description": "Cozies drip and the ability to express oneself is an essential part of being Cozies.",
           "photo": "/images/train-info-2.png",
           "photo_alt": "Cozies cap and sneaker"
         },
@@ -196,12 +186,12 @@
     },
     "team": {
       "title": "TEAM",
-      "content": "Our experienced team will ensure a cozy and exciting journey ahead.",
+      "content": "Our experienced team will ensure a cozies and exciting journey ahead.",
       "list": [
         {
           "photo": "/images/train-team-Andrew_Fai.png",
           "photo_alt": "Cozies Andrew Fai profile image",
-          "title": "Cozy Visionary \nOfficer",
+          "title": "Cozies Visionary \nOfficer",
           "name": "Andrew Fai",
           "links": [
             { "label": "linkedin", "url": "https://www.linkedin.com/in/andrewfai" },
@@ -211,7 +201,7 @@
         {
           "photo": "/images/train-team-Adrian_Stefanov.png",
           "photo_alt": "Cozies Adrian Stefanov profile image",
-          "title": "Cozy Community \nOfficer",
+          "title": "Cozies Community \nOfficer",
           "name": "Adrian Stefanov",
           "links": [
             { "label": "linkedin", "url": "https://www.linkedin.com/in/adrian-st/" },
@@ -241,7 +231,7 @@
         {
           "photo": "/images/train-team-David_Kostadinov.png",
           "photo_alt": "Cozies David Kostadinov profile image",
-          "title": "Cozy \nTech Bro",
+          "title": "Cozies \nTech Bro",
           "name": "David Kostadinov",
           "links": [
             { "label": "linkedin", "url": "https://www.linkedin.com/in/david-kostadinov" },
@@ -279,7 +269,7 @@
         {
           "photo": "/images/train-team-Mahalakshmi_V.png",
           "photo_alt": "Cozies Mahalakshmi V profile image",
-          "title": "Cozy Project\n Manager",
+          "title": "Cozies Project\n Manager",
           "name": "Mahalakshmi V",
           "links": [
             { "label": "linkedin", "url": "https://www.linkedin.com/in/mahalakshmi-vijayakumar-product-operations-manager/" }
@@ -319,7 +309,7 @@
         },
         {
           "question": "How are the 10000 Cozies distributed?",
-          "answer": "a. A select number of Cozies will directly mint a boarding pass (Golden Ticket - 1 per wallet).  Guaranteed mint within the timeframe.\n\nb. Afterwards, Allowlisted Cozies will be eligible for a boarding pass (Allowlist - 2 per wallet).\nQualified premint.xyz addresses can participate on a first come first serve basis. \n\n\nc. Remaining for Public Sale (3 per wallet)\nAny addresses, including Golden Tickets or Allowlists can participate.\n\nd. 300 of the Cozies will remain with the team for internal growth, incentives and marketing."
+          "answer": "a. A select number of Cozies will directly mint a boarding pass (Golden Ticket - 1 per wallet).  Guaranteed mint within the timeframe.\n\nb. Afterwards, Allowlisted Cozies will be eligible for a boarding pass (Allowlist - 2 per wallet).\nQualified superful.xyz addresses can participate on a first come first serve basis. \n\n\nc. Remaining for Public Sale (3 per wallet)\nAny addresses, including Golden Tickets or Allowlists can participate.\n\nd. 300 of the Cozies will remain with the team for internal growth, incentives and marketing."
         },
         {
           "question": "What type of chain and contract do we use?",
@@ -327,11 +317,11 @@
         },
         {
           "question": "What is the mint price?",
-          "answer": "TBA"
+          "answer": "0.135"
         },
         {
           "question": "When is the mint date?",
-          "answer": "TBA"
+          "answer": "10am EST\nOctober 10\n2022"
         },
         {
           "question": "When is the reveal?",
@@ -364,7 +354,7 @@
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros."
     },
     "mail": {
-      "dialog": "Hi I’m XXXXX, I can help you send the mail!",
+      "dialog": "Hi I’m Cozies Messenger, I can help you send the mail!",
       "title": "CONNECT YOUR MIND",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est.",
       "placehold": "Start typing...",
@@ -379,9 +369,10 @@
   "manifesto": {
     "meta_title": "Cozies Manifesto",
     "title": "MANIFESTO",
-    "content": "A revolution doesn’t have to be a rebellion. Instead, lasting change comes to those who light the fuse of change within. A quiet revolution, the spark that ignites the hearth - there, we sit together and discover what cozy means - observing, cherishing and being true. Only once we embark on our own journeys can we take others on it.",
-    "quote": "Happiness is a choice. It starts with being cozy.",
-    "more": "WHITEPAPER COMING SOON"
+    "content": "A revolution doesn’t have to be a rebellion. Instead, lasting change comes to those who light the fuse of change within. A quiet revolution, the spark that ignites the hearth - there, we sit together and discover what cozies means - observing, cherishing and being true. Only once we embark on our own journeys can we take others on it.",
+    "quote": "Happiness is a choice. It starts with being cozies.",
+    "more": "READ WHITEPAPER",
+    "more_link": "https://cozies.gitbook.io/cozies"
   },
   "collection": {
     "id": "TOKEN ID",
@@ -400,15 +391,15 @@
       },
       {
         "title": "OWNERSHIP",
-        "content": "You Own the NFT. Each Cozy is an NFT on the Ethereum blockchain. When you purchase an NFT, you own all personal property rights underlying the NFT (e.g., the right to freely sell, transfer, or otherwise dispose of that NFT). Ownership of the NFT is mediated entirely by the Smart Contract and the Ethereum Network."
+        "content": "You Own the NFT. Each Cozies is an NFT on the Ethereum blockchain. When you purchase an NFT, you own all personal property rights underlying the NFT (e.g., the right to freely sell, transfer, or otherwise dispose of that NFT). Ownership of the NFT is mediated entirely by the Smart Contract and the Ethereum Network."
       },
       {
         "title": "INTELLECTUAL PROPERTY LICENSE",
-        "content": "While you own the NFT, your rights to the associated artwork, images, video, content or other works of authorship linked to your specific Cozy (“Art”) is outlined below:\ni. Personal Use. Subject to your continued compliance with these Terms, Deep Life Labs grants you a non-exclusive worldwide, royalty-free license to use, copy, and display the purchased Art, along with any extensions that you choose to create or use, for your own personal, non-commercial.\nii. Commercial Use. Subject to your continued compliance with these Terms, Deep Life Labs grants you a non-exclusive, worldwide license to use, copy, and display the purchased Art for the purpose of creating derivative works based upon the Art (“Commercial Use”). Examples of such Commercial Use would e.g. be the use of the Art to produce and sell merchandise products (T-Shirts etc.) displaying copies of the Art.\niii. No Trademark Right. Nothing in these Terms is meant to grant you any rights to any logos, trademarks, service marks, and trade dress associated with Deep Life Labs or Cozies."
+        "content": "While you own the NFT, your rights to the associated artwork, images, video, content or other works of authorship linked to your specific Cozies (“Art”) is outlined below:\ni. Personal Use. Subject to your continued compliance with these Terms, Deep Life Labs grants you a non-exclusive worldwide, royalty-free license to use, copy, and display the purchased Art, along with any extensions that you choose to create or use, for your own personal, non-commercial.\nii. Commercial Use. Subject to your continued compliance with these Terms, Deep Life Labs grants you a non-exclusive, worldwide license to use, copy, and display the purchased Art for the purpose of creating derivative works based upon the Art (“Commercial Use”). Examples of such Commercial Use would e.g. be the use of the Art to produce and sell merchandise products (T-Shirts etc.) displaying copies of the Art.\niii. No Trademark Right. Nothing in these Terms is meant to grant you any rights to any logos, trademarks, service marks, and trade dress associated with Deep Life Labs or Cozies."
       },
       {
         "title": "RESTRICTIONS",
-        "content": "Notwithstanding any of the above, you may not use any Cozy in any way that constitutes unlawful, defamatory, harassing, abusive, fraudulent, racist, hateful, vulgar, cruel, illegal or obscene, or that promotes any such activity, as determined in Deep Life Lab’s sole discretion.\n\nAll licenses are automatically terminated if you are deemed to have violated any of these restrictions."
+        "content": "Notwithstanding any of the above, you may not use any Cozies in any way that constitutes unlawful, defamatory, harassing, abusive, fraudulent, racist, hateful, vulgar, cruel, illegal or obscene, or that promotes any such activity, as determined in Deep Life Lab’s sole discretion.\n\nAll licenses are automatically terminated if you are deemed to have violated any of these restrictions."
       },
       {
         "title": "DISCLAIMERS",
