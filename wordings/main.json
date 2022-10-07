@@ -110,6 +110,7 @@
     "meta_title": "Cozies",
     "heading": {
       "banner": "/images/homepage-heading.png",
+      "banner_sold_out": "/images/homepage-heading-2.png",
       "banner_alt": "Cozies' Cozies Platform hero banner"
     },
     "intro": {
