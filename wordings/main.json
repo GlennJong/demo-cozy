@@ -1,8 +1,6 @@
 {
   "setting": {
     "mint": {
-      "price": 0.2,
-      "max": 3,
       "welcome": {
         "type": "heading",
         "content": "WELCOME\nCOZIES"
@@ -11,13 +9,25 @@
         "type": "img",
         "content": "/images/mint-normal.png"
       },
-      "error": {
-        "type": "img",
-        "content": "/images/mint-error.png"
+      "empty": {
+        "type": "text",
+        "content": ""
+      },
+      "sold_out": {
+        "type": "full",
+        "content": "/images/mint-sold_out.png"
+      },
+      "already_mint": {
+        "type": "various",
+        "content": "One passenger can only\n mint $qty passes,\nyou can try other wallect\nor buy on opensea"
+      },
+      "reject": {
+        "type": "text",
+        "conetnt": "Sorry, you are not\n on the whitelist."
       },
       "unconnected": {
         "type": "text",
-        "content": "<img src='/images/metamask.svg' />You need connect\n wallet first..."
+        "content": "<img src='/images/metamask.svg' />You need to\n connect a wallet first."
       },
       "unmatched": {
         "type": "text",
@@ -70,6 +80,7 @@
       { "type": 1, "enable": true, "to": "/train", "title": "TRAIN" },
       { "type": 1, "enable": true, "to": "/the-journey", "title": "THE JOURNEY" },
       { "type": 1, "enable": true, "to": "/manifesto", "title": "MANIFESTO" },
+      { "type": 1, "enable": true, "href": "https://www.google.com", "title": "MARKETPLACE" },
       { "type": 2, "enable": true, "to": "/mint", "title": "MINT" }
     ],
     "socials": [
@@ -379,7 +390,8 @@
     "link": "VIEW ON OPENSEA",
     "heading": "MY COZIES",
     "share_on_twitter": "SHARE ON TWITTER",
-    "description": "DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO."
+    "description": "DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO.",
+    "not_found": "NOT FOUND"
   },
   "terms": {
     "meta_title": "TERMS & CONDITIONS",
