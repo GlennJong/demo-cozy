@@ -363,7 +363,37 @@
     },
     "map": {
       "title": "COZIES MAP",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est. Ut sit lacus auctor dictum donec tellus ullamcorper porttitor quis. Maecenas nibh ac accumsan morbi facilisis faucibus feugiat diam facilisis. Rhoncus natoque non orci dignissim eros."
+      "content": "Cozies is the identity. The train is the vessel. Welcome to the station, you’re going to need a map.",
+      "list": [
+        {
+          "title": "Persistent Identity:",
+          "items": [
+            "Your Cozies will have their own passbook, ready to collect stamps on your adventures.",
+            "Passbooks stay with you no matter what, and may start unlocking portals for you across the wellbeing space."
+          ]
+        },
+        {
+          "title": "Decentralized Brand:",
+          "items": [
+            "Globally recognised branding for wellbeing to be utilized everywhere from small projects to big partnerships.",
+            "The train staff know to make brand growth decentralized, the tools must be provided - and the common goods are coming."
+          ]
+        },
+        {
+          "title": "Self & Community:",
+          "items": [
+            "We are strong, but we are stronger together. Like-minded Cozies are exclusively welcomed to the social areas, open 24/7.",
+            "Our individual stories matter, and Cozies will amplify what you want to share with the world, and give you space when you want to keep it quiet."
+          ]
+        },
+        {
+          "title": "Immersive wellbeing:",
+          "items": [
+            "If the metaverse is the joining of worlds, immersive wellbeing is the joining of technologies to heighten the senses, with the peace and comfort of the outcomes.",
+            "Cozies have access to everything we do."
+          ]
+        }
+      ]
     },
     "mail": {
       "dialog": "Hi I’m Cozies Messenger, I can help you send the mail!",
@@ -371,7 +401,8 @@
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est.",
       "placehold": "Start typing...",
       "max": 1200,
-      "submit": "SUBMIT IDEA"
+      "submit": "SUBMIT IDEA",
+      "is_send": "SUBMITTED!"
     },
     "bottom": {
       "back_to_top": "BACK TO TOP",
