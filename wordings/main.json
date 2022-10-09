@@ -34,8 +34,8 @@
         "content": "<img src='/images/metamask.svg' />You need to\n connect a wallet first."
       },
       "unmatched": {
-        "type": "text",
-        "content": "One passenger can only mint 5 passes,\nyou can try other wallect\nor buy on opensea"
+        "type": "various",
+        "content": "One passenger can only mint $qty passes,\nyou can try other wallect\nor buy on opensea"
       },
       "select": {
         "type": "mint",
@@ -319,7 +319,7 @@
         },
         {
           "question": "How are the 10000 Cozies distributed?",
-          "answer": "a. A select number of Cozies will directly mint a boarding pass (Golden Ticket - 1 per wallet).  Guaranteed mint within the timeframe.\n\nb. Afterwards, Allowlisted Cozies will be eligible for a boarding pass (Allowlist - 2 per wallet).\nQualified superful.xyz addresses can participate on a first come first serve basis. \n\n\nc. Remaining for Public Sale (3 per wallet)\nAny addresses, including Golden Tickets or Allowlists can participate.\n\nd. 300 of the Cozies will remain with the team for internal growth, incentives and marketing."
+          "answer": "a. Golden Ticket Holders will directly mint their Cozies NFT in the Golden Hour. The mint is guaranteed. 1x Cozies NFT per wallet.\n\nb. Allowlisted members will be eligible to mint their Cozies NFTs on a first-come-first-serve basis. Golden Ticket Holders will be able to participate as well. 2x Cozies NFTs per wallet.\n\nc. Remaining for Public Sale. Any addresses, including Golden Tickets or Allowlists can participate. (3 per wallet)\n\nd. 300 of the Cozies will remain with the team for internal growth, incentives and marketing."
         },
         {
           "question": "What type of chain and contract do we use?",
@@ -327,7 +327,7 @@
         },
         {
           "question": "What is the mint price?",
-          "answer": "0.135"
+          "answer": "The mint price is 0.135Ξ, a symbolic number to the COZ135 collection, representing comfort, health, and happiness."
         },
         {
           "question": "When is the mint date?",
@@ -336,10 +336,6 @@
         {
           "question": "When is the reveal?",
           "answer": "TBA"
-        },
-        {
-          "question": "How do I get an Allowlist spot?",
-          "answer": "All engagement with us is considered. We’re also collaborating with a lot of projects that we resonate with - follow us on Twitter for more opportunities to be allowlisted."
         },
         {
           "question": "What intellectual property rights do the Cozies holders receive?",
