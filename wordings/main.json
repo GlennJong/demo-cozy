@@ -82,7 +82,7 @@
       { "type": 1, "enable": true, "to": "/train", "title": "TRAIN" },
       { "type": 1, "enable": true, "to": "/the-journey", "title": "THE JOURNEY" },
       { "type": 1, "enable": true, "to": "/manifesto", "title": "MANIFESTO" },
-      { "type": 1, "enable": true, "href": "marketplace.cozies.io", "title": "MARKETPLACE" },
+      { "type": 1, "enable": true, "href": "https://marketplace.cozies.io", "title": "MARKETPLACE" },
       { "type": 2, "enable": true, "to": "/mint", "title": "MINT" }
     ],
     "socials": [
