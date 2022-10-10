@@ -61,6 +61,10 @@
       { "name": "Beautiful Story", "file": "/audio/Beautiful Story.mp3" },
       { "name": "Downtown City", "file": "/audio/Downtown City.mp3" }
     ],
+    "ticket": {
+      "msg_gold": "GOLDEN TICKET",
+      "msg_whitelist": "ALLOWLIST TICKET"
+    },
     "countdown": {
       "title": "MINT TIME",
       "datetime": "Oct 10 2022 10:00:00 UTC-4",
@@ -78,14 +82,14 @@
       { "type": 1, "enable": true, "to": "/train", "title": "TRAIN" },
       { "type": 1, "enable": true, "to": "/the-journey", "title": "THE JOURNEY" },
       { "type": 1, "enable": true, "to": "/manifesto", "title": "MANIFESTO" },
-      { "type": 1, "enable": true, "href": "https://www.google.com", "title": "MARKETPLACE" },
+      { "type": 1, "enable": true, "href": "marketplace.cozies.io", "title": "MARKETPLACE" },
       { "type": 2, "enable": true, "to": "/mint", "title": "MINT" }
     ],
     "socials": [
       { "icon": "Twitter", "enable": true, "link": "https://twitter.com/CoziesOfficial" },
       { "icon": "Instagram", "enable": true, "link": "https://instagram.com/journeywithcozies" },
       { "icon": "Discord", "enable": true, "link": "https://discord.gg/5umNfcab6R" },
-      { "icon": "Opensea", "enable": false, "link": "" }
+      { "icon": "Opensea", "enable": false, "link": "https://opensea.io/collection/journeywithcozies" }
     ],
     "copyright": "Copyright © 2020 Cozies Inc."
   },
