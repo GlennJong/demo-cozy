@@ -390,7 +390,7 @@
       ]
     },
     "mail": {
-      "dialog": "Hi I’m Cozies Messenger, I can help you send the mail!",
+      "dialog": "Hi, I'm the Cozies Messenger, I can help you send your mail!",
       "title": "CONNECT YOUR MIND",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nam dui sapien tincidunt mollis. Placerat sed viverra eu nisl cursus justo, at. Sed in mi porttitor morbi aliquet semper. Scelerisque proin est sociis est.",
       "placehold": "Start typing...",
