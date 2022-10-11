@@ -54,7 +54,12 @@
         "type": "status",
         "title": "OOPS",
         "content": "Your purchase failed, that’s try again"
-      }
+      },
+      "dutch_auction": {
+        "type": "various",
+        "content": "CURRENT PRICE\n$dutch_auction_price\nETH"
+      },
+      "dutch_auction_dialog": "rebate for users blah blah blah blah"
     },
     "audio": [
       { "name": "A LoFi Dream", "file": "/audio/A LoFi Dream.mp3" },
