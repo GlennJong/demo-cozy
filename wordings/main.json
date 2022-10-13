@@ -59,7 +59,8 @@
         "type": "various",
         "content": "CURRENT PRICE\n$dutch_auction_price\nETH"
       },
-      "dutch_auction_dialog": "rebate for users blah blah blah blah"
+      "dutch_auction_dialog": "rebate for users blah blah blah blah",
+      "out_of_order": "Out of order"
     },
     "audio": [
       { "name": "A LoFi Dream", "file": "/audio/A LoFi Dream.mp3" },
