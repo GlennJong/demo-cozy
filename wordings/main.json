@@ -13,6 +13,10 @@
         "type": "img",
         "content": "/images/mint-error.png"
       },
+      "is_whitelist": {
+        "type": "img",
+        "content": "/images/mint-is_whitelist.png"
+      },
       "empty": {
         "type": "text",
         "content": ""
@@ -41,6 +45,14 @@
         "type": "mint",
         "content": "How many passes would\n you like?"
       },
+      "select_whitelist": {
+        "type": "img",
+        "content": "/images/mint-select-new.png"
+      },
+      "select_public": {
+        "type": "img",
+        "content": "/images/mint-normal.png"
+      },
       "qty": {
         "type": "various",
         "content": "Passes quantity $qty\n Price $price ETH"
@@ -60,7 +72,9 @@
         "content": "CURRENT PRICE\n$dutch_auction_price\nETH"
       },
       "dutch_auction_dialog": "rebate for users blah blah blah blah",
-      "out_of_order": "Out of order"
+      "out_of_order": "Out of order",
+      "whitelist_dialog": "Whitelist minting time",
+      "public_dialog": "Public minting time"
     },
     "audio": [
       { "name": "A LoFi Dream", "file": "/audio/A LoFi Dream.mp3" },
@@ -325,23 +339,23 @@
       "list": [
         {
           "question": "What is the size of this collection?",
-          "answer": "The Cozies genesis collection will introduce 10,000 unique characters."
+          "answer": "The Cozies genesis collection will introduce 10,000 unique characters in total. There are 453 already minted, the other 9,547 are locked within the Diamond Ticket NFTs."
         },
         {
-          "question": "How are the 10000 Cozies distributed?",
-          "answer": "a. Golden Ticket Holders will directly mint their Cozies NFT in the Golden Hour. The mint is guaranteed. 1x Cozies NFT per wallet.\n\nb. Allowlisted members will be eligible to mint their Cozies NFTs on a first-come-first-serve basis. Golden Ticket Holders will be able to participate as well. 2x Cozies NFTs per wallet.\n\nc. Remaining for Public Sale. Any addresses, including Golden Tickets or Allowlists can participate. (3 per wallet)\n\nd. 300 of the Cozies will remain with the team for internal growth, incentives and marketing."
+          "question": "How are the 10,000 Cozies distributed?",
+          "answer": "a. 153 Cozies are already minted\n\b. 9,547 Diamond Tickets will be mintable for FREE within the first 24 hours, by Whitelisted community members. These NFTs can be cut into Cozies NFTs for 0.05Ξ\n\nc. After the Free Mint window, Diamond Tickets will cost 0.03Ξ to mint.\n300 Cozies are reserved for the team for internal growth, incentives, and marketing."
         },
         {
           "question": "What type of chain and contract do we use?",
-          "answer": "Cozies will arrive to the Ethereum Blockchain, and they will be minted with the ERC-721A token standard."
+          "answer": "Cozies live on the Ethereum Blockchain, ERC-721A token standard. Diamond Tickets will be minted using ERC-1155."
         },
         {
           "question": "What is the mint price?",
-          "answer": "The mint price is 0.135Ξ, a symbolic number to the COZ135 collection, representing comfort, health, and happiness."
+          "answer": "Minting a Diamond Ticket is FREE to Whitelisted wallets. Cutting the Diamond Ticket to reveal a Cozies NFT will require 0.05Ξ plus gas. This action also burns the Diamond Ticket NFT."
         },
         {
           "question": "When is the mint date?",
-          "answer": "10am EST\nOctober 10\n2022"
+          "answer": "10am EST, November 2 2022"
         },
         {
           "question": "When is the reveal?",
@@ -454,5 +468,15 @@
         "content": "i. YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR ACCESS TO AND USE OF THE SITE IS AT YOUR SOLE RISK, AND THAT THE SITE IS PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, WE MAKE NO EXPRESS WARRANTIES AND HEREBY DISCLAIM ALL IMPLIED WARRANTIES REGARDING THE SITE AND ANY PART OF IT (INCLUDING, WITHOUT LIMITATION, THE SITE, ANY SMART CONTRACT, OR ANY EXTERNAL WEBSITES), INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, CORRECTNESS, ACCURACY, OR RELIABILITY. WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, WE, OUR SUBSIDIARIES, AFFILIATES, AND LICENSORS DO NOT REPRESENT OR WARRANT TO YOU THAT: (I) YOUR ACCESS TO OR USE OF THE SITE WILL MEET YOUR REQUIREMENTS, (II) YOUR ACCESS TO OR USE OF THE SITE WILL BE UNINTERRUPTED, TIMELY, SECURE OR FREE FROM ERROR, (III) USAGE DATA PROVIDED THROUGH THE SITE WILL BE ACCURATE, (III) THE SITE OR ANY CONTENT, SERVICES, OR FEATURES MADE AVAILABLE ON OR THROUGH THE SITE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR (IV) THAT ANY DATA THAT YOU DISCLOSE WHEN YOU USE THE SITE WILL BE SECURE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES IN CONTRACTS WITH CONSUMERS, SO SOME OR ALL OF THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU.\nii. YOU ACCEPT THE INHERENT SECURITY RISKS OF PROVIDING INFORMATION AND DEALING ONLINE OVER THE INTERNET, AND AGREE THAT WE HAVE NO LIABILITY OR RESPONSIBILITY FOR ANY BREACH OF SECURITY UNLESS IT IS DUE TO OUR WILLFULL MISCONDUCT.\niii. WE WILL NOT BE RESPONSIBLE OR LIABLE TO YOU FOR ANY LOSSES YOU INCUR AS THE RESULT OF YOUR USE OF THE ETHEREUM NETWORK NOR DO WE HAVE NO CONTROL OVER AND MAKE NO GUARANTEES REGARDING ANY SMART CONTRACTS."
       }
     ]
+  },
+  "exchange": {
+    "heading": "EXCHANGE TO COZIES",
+    "description": "choose the tickets(ERC1155), and exchange to cozies(ERC-721)",
+    "exchange": "EXCHANGE",
+    "check_my_cozies": "CHECK MY COZIES",
+    "not_yet": "NOT OPEN YET",
+    "not_found": "THERE ARE NO TICKETS HERE",
+    "get_tickets": "GET TICKETS",
+    "success": "EXCHANGE SUCCESS!"
   }
 }
