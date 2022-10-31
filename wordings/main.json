@@ -477,6 +477,7 @@
     "not_yet": "NOT OPEN YET",
     "not_found": "THERE ARE NO TICKETS HERE",
     "get_tickets": "GET TICKETS",
-    "success": "EXCHANGE SUCCESS!"
+    "succeed": "EXCHANGE SUCCESS!",
+    "failed": "SORRY SOMETHING WENT WRONG!"
   }
 }
