@@ -26,8 +26,8 @@
         "content": "/images/mint-sold_out.png"
       },
       "already_mint": {
-        "type": "various",
-        "content": "One passenger can only\n mint $qty passes,\nyou can try other wallect\nor buy on opensea"
+        "type": "text",
+        "content": "Looks like you've grabbed all your tickets!\nCome back for the Public Phase or visit OpenSea!"
       },
       "reject": {
         "type": "text",
@@ -83,7 +83,7 @@
     ],
     "ticket": {
       "msg_gold": "GOLDEN TICKET",
-      "msg_whitelist": "ALLOWLIST TICKET"
+      "msg_whitelist": "WHITELIST TICKET"
     },
     "countdown": {
       "title": "MINT TIME",
@@ -470,14 +470,14 @@
     ]
   },
   "exchange": {
-    "heading": "EXCHANGE TO COZIES",
-    "description": "choose the tickets(ERC1155), and exchange to cozies(ERC-721)",
+    "heading": "DIAMOND TICKETS",
+    "description": "Choose your Diamond Ticket and unlock to get your Cozies NFT",
     "exchange": "EXCHANGE",
     "check_my_cozies": "CHECK MY COZIES",
     "not_yet": "NOT OPEN YET",
     "not_found": "THERE ARE NO TICKETS HERE",
     "get_tickets": "GET TICKETS",
-    "succeed": "EXCHANGE SUCCESS!",
+    "succeed": "UNLOCK COZIES SUCCESS!",
     "failed": "SORRY SOMETHING WENT WRONG!"
   }
 }
