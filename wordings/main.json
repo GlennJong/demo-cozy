@@ -103,7 +103,7 @@
       { "type": 1, "enable": true, "to": "/the-journey", "title": "THE JOURNEY" },
       { "type": 1, "enable": true, "to": "/manifesto", "title": "MANIFESTO" },
       { "type": 1, "enable": true, "href": "https://marketplace.cozies.io", "title": "MARKETPLACE" },
-      { "type": 2, "enable": true, "to": "/mint", "title": "MINT" }
+      { "type": 2, "enable": true, "to": "/unlockcozies", "title": "UNLOCK" }
     ],
     "socials": [
       { "icon": "Twitter", "enable": true, "link": "https://twitter.com/CoziesOfficial" },
@@ -339,31 +339,27 @@
       "list": [
         {
           "question": "What is the size of this collection?",
-          "answer": "The Cozies genesis collection will introduce 10,000 unique characters in total. There are 453 already minted, the other 9,547 are locked within the Diamond Ticket NFTs."
+          "answer": "The Cozies genesis collection introduces a total of 5781 NFTs - the sum of Diamond Tickets and Cozies.\nThis number was decided by the community during the mint process."
         },
         {
-          "question": "How are the 10,000 Cozies distributed?",
-          "answer": "a. 153 Cozies are already minted\n\b. 9,547 Diamond Tickets will be mintable for FREE within the first 24 hours, by Whitelisted community members. These NFTs can be cut into Cozies NFTs for 0.05Ξ\n\nc. After the Free Mint window, Diamond Tickets will cost 0.03Ξ to mint.\n300 Cozies are reserved for the team for internal growth, incentives, and marketing."
+          "question": "How are the 5,784 Cozies distributed?",
+          "answer": "Diamond Ticket NFTs can be cut to unlock Cozies NFTs. This means that a part of the Cozies collection is yet to be revealed.\n300 Cozies NFTs are reserved for the team for internal growth, incentives, and marketing."
         },
         {
           "question": "What type of chain and contract do we use?",
-          "answer": "Cozies live on the Ethereum Blockchain, ERC-721A token standard. Diamond Tickets will be minted using ERC-1155."
-        },
-        {
-          "question": "What is the mint price?",
-          "answer": "Minting a Diamond Ticket is FREE to Whitelisted wallets. Cutting the Diamond Ticket to reveal a Cozies NFT will require 0.05Ξ plus gas. This action also burns the Diamond Ticket NFT."
-        },
-        {
-          "question": "When is the mint date?",
-          "answer": "10am EST, November 2 2022"
+          "answer": "Cozies and Diamond Tickets both live on the Ethereum Blockchain, ERC-721A token standard.\nCozies Contract: <a href='https://etherscan.io/address/0xb26920e53404e794cb29b39d286410fab3ad2ddd' target='_blank'>https://etherscan.io/address/0xb26920e53404e794cb29b39d286410fab3ad2ddd</a>\nDiamond Tickets Contract: <a href='https://etherscan.io/address/0xb26920e53404e794cb29b39d286410fab3ad2ddd' target='_blank'>https://etherscan.io/address/0xb26920e53404e794cb29b39d286410fab3ad2ddd</a>"
         },
         {
           "question": "When is the reveal?",
-          "answer": "TBA"
+          "answer": "November 11\n10 am ET"
         },
         {
           "question": "What intellectual property rights do the Cozies holders receive?",
           "answer": "<a href='https://7q7win2vvm2wnqvltzauqamrnuyhq3jn57yqad2nrgau4fe3l5ya.arweave.net/_D9kN1WrNWbCq55BSAGRbTB4bS3v8QAPTYmBThSbX3A/3' target='_blank'>“CAN’T BE EVIL” NFT LICENSE:</a>\nNON-EXCLUSIVE COMMERCIAL RIGHTS & HATE SPEECH TERMINATION (“CBE-NECR-HS”)"
+        },
+        {
+          "question": "How does \"cutting\" work?",
+          "answer": "Holders of Diamond Tickets may choose to cut their NFTs to unlock the original Cozies NFTs. This requires 0.05Ξ plus gas. \n\nOwning a Cozies NFT grants full access to the Cozy Express - an immersive well-being experience where you can complete wellness pursuits to level up and claim rewards and utilities."
         }
       ],
       "note": "If you have any questions, please go to our <a href='https://twitter.com/CoziesOfficial' target='_blank'>Twitter</a> or <a href='https://discord.gg/5umNfcab6R' target='_blank'>Discord</a> for help!"
@@ -430,8 +426,8 @@
   "manifesto": {
     "meta_title": "Cozies Manifesto",
     "title": "MANIFESTO",
-    "content": "A revolution doesn’t have to be a rebellion. Instead, lasting change comes to those who light the fuse of change within. A quiet revolution, the spark that ignites the hearth - there, we sit together and discover what cozies means - observing, cherishing and being true. Only once we embark on our own journeys can we take others on it.",
-    "quote": "Happiness is a choice. It starts with being cozies.",
+    "content": "A revolution doesn’t have to be a rebellion. Instead, lasting change comes to those who light the fuse of change within. A quiet revolution, the spark that ignites the hearth - there, we sit together and discover what cozy means - observing, cherishing and being true. Only once we embark on our own journey can we take others on it.",
+    "quote": "Happiness is a choice. It starts with being cozy.",
     "more": "READ WHITEPAPER",
     "more_link": "https://cozies.gitbook.io/cozies"
   },
@@ -440,7 +436,7 @@
     "link": "VIEW ON OPENSEA",
     "heading": "MY COZIES",
     "share_on_twitter": "SHARE ON TWITTER",
-    "description": "DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO.",
+    "description": "",
     "not_found": "NOT FOUND"
   },
   "terms": {
